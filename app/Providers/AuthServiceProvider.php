@@ -57,6 +57,5 @@ class AuthServiceProvider extends ServiceProvider
             'read-general' => 'Read general information like purchasing categories, purchased products, selling products, selling categories, your transactions (purchases and sales)',
         ]);
 
-        //
     }
 }

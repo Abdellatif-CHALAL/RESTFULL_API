@@ -112,6 +112,6 @@ class __TwigTemplate_1bc701f54fa14c25905cdb35b2bf6e8f534cb218b69289b010177b08acc
 
     public function getSourceContext()
     {
-        return new Source("", "table/structure/action_row_in_structure_table.twig", "/Volumes/Data/www/phpmyadmin/templates/table/structure/action_row_in_structure_table.twig");
+        return new Source("", "table/structure/action_row_in_structure_table.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/table/structure/action_row_in_structure_table.twig");
     }
 }

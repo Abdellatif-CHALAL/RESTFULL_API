@@ -66,6 +66,6 @@ class __TwigTemplate_9119c9707bbf33fe6e01a84993aec3759d1aecef6418a4d3c97614ef7f5
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/page_selector.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/page_selector.twig");
+        return new Source("", "display/results/page_selector.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/page_selector.twig");
     }
 }

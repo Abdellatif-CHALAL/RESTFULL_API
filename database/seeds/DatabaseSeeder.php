@@ -1,6 +1,7 @@
 <?php
 
 use App\Category;
+use App\Expos;
 use App\Product;
 use App\Transaction;
 use App\User;
@@ -23,18 +24,23 @@ class DatabaseSeeder extends Seeder
         Category::truncate();
         Transaction::truncate();
         Product::truncate();
+        // Expos::truncate();
+        DB::table('civicrm_getexpos')->truncate();
         DB::table('category_product')->truncate();
 
         User::flushEventListeners();
         Category::flushEventListeners();
         Product::flushEventListeners();
         Transaction::flushEventListeners();
+        Expos::flushEventListeners();
 
         $usersQuantity = 1000;
         $CategoriesQuantity = 30;
         $productsQuantity = 1000;
         $transactionsQuantity = 1000;
-
+        $exposQuantity = 30;
+        
+        // factory(Expos::class,$exposQuantity)->create();
         factory(User::class,$usersQuantity)->create();
         factory(Category::class,$CategoriesQuantity)->create();
         factory(Product::class,$productsQuantity)->create()->each(
@@ -44,5 +50,6 @@ class DatabaseSeeder extends Seeder
             });
         
         factory(Transaction::class,$transactionsQuantity)->create();
+       
     }
 }

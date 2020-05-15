@@ -1,3 +1,5 @@
+// axios.defaults.baseURL = 'https://localhost';
+
 window._ = require('lodash');
 
 /**
@@ -20,6 +22,8 @@ try {
  */
 
 window.axios = require('axios');
+
+// axios.defaults.baseURL = 'http://latif.dz/RESTFUL_API/public';
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 

@@ -88,6 +88,6 @@ class __TwigTemplate_fe53f883ac08d7ced855b049cc3523523b01581f25f50bf53a122675436
 
     public function getSourceContext()
     {
-        return new Source("", "table/page_with_secondary_tabs.twig", "/Volumes/Data/www/phpmyadmin/templates/table/page_with_secondary_tabs.twig");
+        return new Source("", "table/page_with_secondary_tabs.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/table/page_with_secondary_tabs.twig");
     }
 }

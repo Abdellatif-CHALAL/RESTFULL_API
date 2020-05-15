@@ -3,6 +3,8 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\Category;
+use App\Civicrm_getexpos;
+use App\Expos;
 use App\Product;
 use App\Seller;
 use App\Transaction;
@@ -61,5 +63,28 @@ $factory->define(Transaction::class, function (Faker $faker) {
         'quantity' => $faker->numberBetween(1,3),
         'buyer_id' => $buyer->id,
         'product_id' => $seller->products->random()->id,
+    ];
+});
+
+
+
+$factory->define(Expos::class, function (Faker $faker) {
+    return [
+        'expo_code' => $faker->unique()->word(),
+        'date' => $faker->date(),
+        'chategory' => $faker->word(),
+        'item_name_en' => $faker->word(),
+        'item_name_fr' => $faker->word(),
+        'expo_title_en' => $faker->word(),
+        'expo_title_fr' => $faker->word(),
+        'theme_en' => $faker->word(),
+        'theme_fr' => $faker->word(),
+        'city_en' => $faker->word(),
+        'city_fr' => $faker->word(),
+        'ec_name_en' => $faker->word(),
+        'ec_name_fr' => $faker->word(),
+        'color_code' => $faker->word(),
+        'css_style' => $faker->word(),
+        'c_name_en' => $faker->word(),
     ];
 });

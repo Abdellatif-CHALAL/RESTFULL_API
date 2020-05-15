@@ -82,6 +82,6 @@ class __TwigTemplate_308f34e5dd3b5f388109932980420c734099facd34779d79cb3ae0b9dbc
 
     public function getSourceContext()
     {
-        return new Source("", "checkbox.twig", "/Volumes/Data/www/phpmyadmin/templates/checkbox.twig");
+        return new Source("", "checkbox.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/checkbox.twig");
     }
 }

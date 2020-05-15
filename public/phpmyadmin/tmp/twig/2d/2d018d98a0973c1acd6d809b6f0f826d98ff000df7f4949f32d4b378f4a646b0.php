@@ -64,6 +64,6 @@ class __TwigTemplate_0924b561b67a1160d42b0a09961e1b55b86ae1bcf1a468be42e90e17c55
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/format_dropdown.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/export/format_dropdown.twig");
+        return new Source("", "display/export/format_dropdown.twig", "/Volumes/Data/www/phpmyadmin/templates/display/export/format_dropdown.twig");
     }
 }

@@ -112,6 +112,6 @@ class __TwigTemplate_4f974827a954112c61131622b65eeee6849d8a9b9c282957e8fe70a4f66
 
     public function getSourceContext()
     {
-        return new Source("", "table/insert/continue_insertion_form.twig", "/Volumes/Data/www/phpmyadmin/templates/table/insert/continue_insertion_form.twig");
+        return new Source("", "table/insert/continue_insertion_form.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/table/insert/continue_insertion_form.twig");
     }
 }

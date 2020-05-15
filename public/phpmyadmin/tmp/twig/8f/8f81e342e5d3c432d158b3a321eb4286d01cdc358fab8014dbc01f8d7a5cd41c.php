@@ -78,6 +78,6 @@ class __TwigTemplate_56f81eadeff54c526ecd0f5c666fd718ae541b383fa17f381351caa13b2
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/comment_for_row.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/comment_for_row.twig");
+        return new Source("", "display/results/comment_for_row.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/comment_for_row.twig");
     }
 }

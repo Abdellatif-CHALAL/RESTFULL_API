@@ -91,6 +91,6 @@ $context["charset"] == ($context["export_charset"] ?? null)))) {
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/options_output_charset.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/export/options_output_charset.twig");
+        return new Source("", "display/export/options_output_charset.twig", "/Volumes/Data/www/phpmyadmin/templates/display/export/options_output_charset.twig");
     }
 }

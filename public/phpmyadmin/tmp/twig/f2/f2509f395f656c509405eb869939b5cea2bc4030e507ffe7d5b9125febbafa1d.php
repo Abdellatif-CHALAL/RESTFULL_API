@@ -790,6 +790,6 @@ $context["database"], "name", [], "any", false, false, false, 239)]);
 
     public function getSourceContext()
     {
-        return new Source("", "server/databases/index.twig", "/Volumes/Data/www/phpmyadmin/templates/server/databases/index.twig");
+        return new Source("", "server/databases/index.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/server/databases/index.twig");
     }
 }

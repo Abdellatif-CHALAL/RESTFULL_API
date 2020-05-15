@@ -303,6 +303,6 @@ class __TwigTemplate_a6a289ccfe070486f5dc1306017495df0877076e1098b2734b8a164e77c
 
     public function getSourceContext()
     {
-        return new Source("", "display/import/javascript.twig", "/Volumes/Data/www/phpmyadmin/templates/display/import/javascript.twig");
+        return new Source("", "display/import/javascript.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/import/javascript.twig");
     }
 }

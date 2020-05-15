@@ -110,6 +110,6 @@ class __TwigTemplate_bf353cb8f7c6e37d2a9052c1737a3c71d05077df5d79bc1ea0984e328b5
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table_headers.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/table_headers.twig");
+        return new Source("", "display/results/table_headers.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/table_headers.twig");
     }
 }

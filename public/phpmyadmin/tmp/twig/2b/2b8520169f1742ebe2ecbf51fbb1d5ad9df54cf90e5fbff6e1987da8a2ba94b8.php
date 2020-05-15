@@ -63,6 +63,6 @@ class __TwigTemplate_46f02ab51b6e866d8c03caf0c329dc07970256c7aa3715be0a687feb81f
 
     public function getSourceContext()
     {
-        return new Source("", "fk_checkbox.twig", "/Volumes/Data/www/phpmyadmin/templates/fk_checkbox.twig");
+        return new Source("", "fk_checkbox.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/fk_checkbox.twig");
     }
 }

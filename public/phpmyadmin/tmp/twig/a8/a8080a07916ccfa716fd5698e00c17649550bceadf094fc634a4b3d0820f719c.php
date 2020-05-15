@@ -169,6 +169,6 @@ class __TwigTemplate_a2c3b545e9b5846b0236c7fc311081fd51fd971728274fac1eaf7b1f81c
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/options_block.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/options_block.twig");
+        return new Source("", "display/results/options_block.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/options_block.twig");
     }
 }

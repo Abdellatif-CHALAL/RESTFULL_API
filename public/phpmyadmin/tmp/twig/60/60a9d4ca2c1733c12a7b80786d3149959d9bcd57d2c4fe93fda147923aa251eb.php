@@ -76,6 +76,6 @@ class __TwigTemplate_4ab5ac600fa4d9858a5965d1cc622b93e1a8a68a8f57c1f577f356f9ff7
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/data_for_resetting_column_order.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/data_for_resetting_column_order.twig");
+        return new Source("", "display/results/data_for_resetting_column_order.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/data_for_resetting_column_order.twig");
     }
 }

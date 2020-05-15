@@ -111,6 +111,6 @@ class __TwigTemplate_9c5f1b579fa4a893d114fdd657ea2f6e26a57192d8d88762606d48a053c
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/hidden_inputs.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/export/hidden_inputs.twig");
+        return new Source("", "display/export/hidden_inputs.twig", "/Volumes/Data/www/phpmyadmin/templates/display/export/hidden_inputs.twig");
     }
 }

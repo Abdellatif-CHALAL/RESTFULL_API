@@ -72,6 +72,6 @@ class __TwigTemplate_bfe29f80bcec0fc8e6b64cdf78260200c43847e47ea09aa4902f3066128
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/null_display.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/null_display.twig");
+        return new Source("", "display/results/null_display.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/null_display.twig");
     }
 }

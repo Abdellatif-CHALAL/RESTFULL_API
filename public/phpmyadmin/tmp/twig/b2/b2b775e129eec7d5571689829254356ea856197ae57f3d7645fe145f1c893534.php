@@ -66,6 +66,6 @@ class __TwigTemplate_21d4a266ac6b4fe5baf579ab87efbf3f46b3469d0770f8ca608727ffff2
 
     public function getSourceContext()
     {
-        return new Source("", "display/export/options_output_radio.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/export/options_output_radio.twig");
+        return new Source("", "display/export/options_output_radio.twig", "/Volumes/Data/www/phpmyadmin/templates/display/export/options_output_radio.twig");
     }
 }

@@ -466,6 +466,6 @@ $context["charset"] == ($context["import_charset"] ?? null)))) {
 
     public function getSourceContext()
     {
-        return new Source("", "display/import/import.twig", "/Volumes/Data/www/phpmyadmin/templates/display/import/import.twig");
+        return new Source("", "display/import/import.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/import/import.twig");
     }
 }

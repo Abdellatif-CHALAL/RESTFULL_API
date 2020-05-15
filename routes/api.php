@@ -60,7 +60,12 @@ Route::resource('transactions','Transaction\TransactionController',['only' => ['
 Route::resource('transactions.categories','Transaction\TransactionCategoryController',['only' => ['index']]);
 Route::resource('transactions.sellers','Transaction\TransactionSellerController',['only' => ['index']]);
 
+/*
+    Expos resources
+*/
 
+
+Route::resource('expos','Expos\ExposController',['only' => ['index','show']]);
 /*
  Users resource
 */
@@ -70,3 +75,5 @@ Route::name('verify')->get('users/verify/{token}','User\UserController@verify');
 Route::name('resend')->get('users/{user}/resend','User\UserController@resend');
 
 Route::post('oauth/token','\Laravel\Passport\Http\Controllers\AccessTokenController@issueToken');
+Route::post('oauth/register', 'API\RegisterController@register');
+Route::post('oauth/login', 'API\RegisterController@login');

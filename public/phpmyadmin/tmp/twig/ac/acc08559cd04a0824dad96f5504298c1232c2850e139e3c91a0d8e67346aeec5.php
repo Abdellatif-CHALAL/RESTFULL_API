@@ -103,6 +103,6 @@ class __TwigTemplate_0478b1ef2a3d123a66d282a210da2f23d1bf34e4318d812c85a1327bb6a
 
     public function getSourceContext()
     {
-        return new Source("", "dropdown.twig", "/Volumes/Data/www/phpmyadmin/templates/dropdown.twig");
+        return new Source("", "dropdown.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/dropdown.twig");
     }
 }

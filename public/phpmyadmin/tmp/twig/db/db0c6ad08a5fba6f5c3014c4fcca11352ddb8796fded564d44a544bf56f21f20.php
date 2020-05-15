@@ -81,6 +81,6 @@ class __TwigTemplate_744cd68f967b98aa81c55057d1089f2b8bfe25bbdfc4a855204bb2cba96
 
     public function getSourceContext()
     {
-        return new Source("", "select_all.twig", "/Volumes/Data/www/phpmyadmin/templates/select_all.twig");
+        return new Source("", "select_all.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/select_all.twig");
     }
 }

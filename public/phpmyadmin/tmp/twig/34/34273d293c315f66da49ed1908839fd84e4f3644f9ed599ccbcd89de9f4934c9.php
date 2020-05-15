@@ -85,6 +85,6 @@ class __TwigTemplate_cffe813b1c31eb9e136b497f8dfcf414107678557905ba0c1243bb98983
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/sort_by_key.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/sort_by_key.twig");
+        return new Source("", "display/results/sort_by_key.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/sort_by_key.twig");
     }
 }

@@ -89,6 +89,6 @@ class __TwigTemplate_92d611b5beaa088950312461c98367041b8c7d0e73a432c60fa3aab110e
 
     public function getSourceContext()
     {
-        return new Source("", "div_for_slider_effect.twig", "/Volumes/Data/www/phpmyadmin/templates/div_for_slider_effect.twig");
+        return new Source("", "div_for_slider_effect.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/div_for_slider_effect.twig");
     }
 }

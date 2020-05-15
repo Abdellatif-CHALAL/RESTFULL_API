@@ -191,6 +191,6 @@ class __TwigTemplate_d3b29906bb1f86c4f42998a2fd61681f441bcb21b26ed4991c480ec9df4
 
     public function getSourceContext()
     {
-        return new Source("", "display/results/table_navigation.twig", "/Volumes/Data/www/phpmyadmin/templates/display/results/table_navigation.twig");
+        return new Source("", "display/results/table_navigation.twig", "/Volumes/Data/www/RESTFUL_API/public/phpmyadmin/templates/display/results/table_navigation.twig");
     }
 }
